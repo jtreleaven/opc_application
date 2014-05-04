@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OPC_Demo</class>
+ <widget class="QMainWindow" name="OPC_Demo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>25</y>
+      <width>950</width>
+      <height>650</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <widget class="QWidget" name="start_page">
+     <widget class="QPushButton" name="quick_demo_btn">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>200</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Quick Demo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="custom_demo_btn">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>300</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Custom Demo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="training_demo_btn">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>400</y>
+        <width>150</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Training Demo</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="quick_demo"/>
+    <widget class="QWidget" name="custom_demo"/>
+    <widget class="QWidget" name="training_page">
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>10</y>
+        <width>640</width>
+        <height>480</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>540</y>
+        <width>205</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0 = Background/False Positive</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>570</y>
+        <width>205</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>1 = Human</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>600</y>
+        <width>205</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2 = Cattle/Livestock</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>540</y>
+        <width>205</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>3 = Rhino</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>570</y>
+        <width>205</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>4 = Elephant</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>600</y>
+        <width>205</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>5 = Giraff</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>500</y>
+        <width>551</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hit the number associated with your guess for the currently highlighted object...</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
